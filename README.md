@@ -1,0 +1,2 @@
+# Firebase Asynchronous Data Retrieval Error
+This repository demonstrates a common error related to asynchronous data handling in Firebase.  The `bug.js` file contains code that incorrectly attempts to access data before the asynchronous operation completes.  This leads to undefined values and potential errors. The `bugSolution.js` file shows the corrected approach using Promises or async/await for proper error handling and data access.
